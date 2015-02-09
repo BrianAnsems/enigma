@@ -1,0 +1,25 @@
+<DOCTYPE! HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="enigma.css"></link>
+		<title>Ceasar Cipher Maker</title>
+	</head>
+	<body>
+		<div><h1 id="pageTitle">Caesar Cipher Maker</h1></div>
+		<div id="input">
+			<form>
+  				Enter Ceasar Key(left shift): <input type="text" id="ceasarkey"><br>
+  				Enter PlainText:<textarea rows='10' cols="30" id="plaintext"></textarea>
+  				<input type="submit" value="Submit" id="encipher">
+			</form>
+		</div>
+		<div id="output">
+			<h3>Enciphered Text:</h3><p id="encipheredtext"></p>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="enigma.js"></script>
+	</body>
+</html>
